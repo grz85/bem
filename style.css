@@ -262,10 +262,10 @@ footer {
         font-size: 32px;
     }
 
-    #menuChekbox:checked  ~ .nav__ul  {
-        display: flex;
-    }
     
+    #menuChkbox: :checked { 
+    display: none;
+}
 
     
 
